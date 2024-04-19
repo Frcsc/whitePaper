@@ -1,0 +1,122 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    min-height: 100vh;
+}
+
+.shape {
+    height: 0;
+    width: 0;
+    border-bottom: 30px solid black;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+  }
+
+
+  .acmeLogo{
+    display: flex;
+    align-items: flex-end;
+    background-color: #3b82f6;
+    flex-shrink: 0;
+    height: 5rem; 
+    padding: 1rem;
+  }
+
+  @media (min-width: 768px) {
+    .acmeLogo {
+        height: 13rem;
+    }
+  }
+
+  .outerContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    flex-grow: 1;
+  }
+
+  @media (min-width: 1200px) {
+    .outerContainer {
+        flex-direction: row;
+    }
+  }
+  .innnerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: #f9fafb;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+@media (min-width: 1280px) {
+    .innnerContainer {
+      width: 40%;
+    }
+  }
+
+@media (min-width: 768px) {
+    .innnerContainer {
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
+  }
+
+  .innnerContainerParagraph{
+    font-size: 1.25rem;
+    color: #2d3748;
+  }
+  
+
+  @media (min-width: 768px) {
+    .innnerContainerParagraph{
+        font-size: 1.875rem;
+        line-height: 1.5;
+    }
+  }
+.loginLink {
+    display: flex;
+    align-items: center;
+    background-color: #3b82f6;
+    gap: 1.25rem; 
+    align-self: flex-start;
+    border-radius: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #fff; 
+    transition-property: color, background-color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    font-size: 1rem; 
+}
+
+.loginLink:hover{
+    background-color: #063989;
+}
+
+.imageHero{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+
+}
+
+@media (min-width: 1200px) {
+    .imageHero {
+        width: 60%;
+        padding-left: 7rem;
+        padding-right: 7rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+  }

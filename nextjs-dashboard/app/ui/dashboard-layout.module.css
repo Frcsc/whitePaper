@@ -1,0 +1,26 @@
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    height: 100vh;
+}
+
+@media (min-width: 768px) {
+    .mainContainer{
+        flex-direction: row;
+        overflow: hidden;
+    }
+  }
+
+
+.sideNav{
+    width: 100%;
+    flex: none;
+}
+
+@media (min-width: 768px) {
+    .sideNav{
+        width: 64px;
+    }
+  }

@@ -15,7 +15,7 @@ export default function Page() {
             <div className={styles.innnerContainer}>
                 <div className={styles.shape}/>
                 <p className={`${styles.innnerContainerParagraph} ${lusitana.className} antialiased`}>
-                    <strong>Welcome to Acme.</strong> This is the example for the{' '}
+                    <strong>Welcome to Bayati.</strong> This is the example for the{' '}
                     <a href="https://nextjs.org/learn/" className="text-blue-500">
                     Next.js Learn Course
                     </a>
